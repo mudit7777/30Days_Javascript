@@ -58,3 +58,12 @@ function Counter() {
 var counter1 = new Counter();
 counter1.incrementCounter();
 counter1.decrementCounter();
+
+function newCounter() {
+  var a = 10000;
+  function innerCounter() {
+    console.log(a);
+  }
+  return innerCounter;
+}
+newCounter()();
