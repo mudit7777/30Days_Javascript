@@ -54,6 +54,7 @@ console.log(
 var firstF = function (param1) {
   return function xyz() {};
 };
+// console.log(firstF());
 console.log(firstF());
 
 // ***** Functions are First Class Citizens***
