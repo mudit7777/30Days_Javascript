@@ -11,6 +11,7 @@ let c = 100;
 console.log(c);
 
 console.log("shadowing with const with function");
+console.log("shadowing with const with function");
 
 const cc = 100;
 function x() {
