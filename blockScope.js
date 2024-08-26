@@ -6,6 +6,7 @@ let c = 100;
     // console.log(c);
   }
   console.log(c);
+  console.log("x");
 }
 console.log(c);
 

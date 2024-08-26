@@ -98,6 +98,6 @@ const funccc = (x) => x * x;
 const result = highOrderrrFunction(funcc, funccc, 3);
 console.log(result);
 
-// Javascript by akshay saini
+// Javascript by
 
 console.log("Concept of block and scope in js ");

@@ -7,7 +7,7 @@ function area(radius) {
   return area;
 }
 
-// logic for circumference
+// logic for circumference of circle
 function circumference(radius) {
   return 2 * Math.PI * radius;
 }
