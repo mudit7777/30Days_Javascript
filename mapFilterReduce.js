@@ -49,9 +49,25 @@ const users = [
 const result = users.map((x) => x.firstName + " " + x.LastName);
 console.log(result);
 
-// Tricky Example of Filter
+// Tricky Example of reduce
 // const age = users.reduce(function (acc, curr) {
 //   if (acc[curr.Age] > 25) {
 //   }
 // });
 // console.log(age);
+
+// filter() with map()
+const userAgeLessThan30 = users
+  .filter((x) => x.Age < 30)
+  .map((x) => x.firstName);
+console.log(userAgeLessThan30);
+
+// reduce ()
+const userAgeLessThan80 = users.reduce((acc, curr) => {
+  if (curr.Age < 80) {
+    acc.push(curr.firstName);
+  }
+  return acc;
+}, []);
+
+console.log(userAgeLessThan80);
